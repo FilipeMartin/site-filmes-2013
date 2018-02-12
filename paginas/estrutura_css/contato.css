@@ -1,0 +1,170 @@
+body {
+    background-color: #F3F4F6;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral-contato {
+    width:594px;
+	height:auto; 
+	margin: 0 auto;
+	min-height:100%; 
+	position:relative;
+	}
+
+* html #geral-contato{ height:100%; }
+
+#pg-contato {
+    width:501px; 
+	height:auto;
+	margin: 0 auto;
+	}
+	
+#contato-pg-img {
+    background:url(../estrutura_img/barra%20conteudo.jpg) no-repeat;
+	width:501px;
+	height:96px;
+	margin: 0 auto;
+	}	
+
+#titulo-contato-img { 
+    width:250px; 
+    height:49px;
+	text-align:left;
+    float:left;
+	padding-left:21px;
+	margin-top:23px;   
+    }
+	
+a.titulo-contato-img:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+a.titulo-contato-img:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+	
+}
+
+a.titulo-contato-img:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+
+a.titulo-contato-img:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: underline;
+	outline:none;
+}	
+
+#data-contato-img { 
+    width:241px;
+	text-align:left;  
+    float:left; 
+	padding-left:30px;     
+	}
+	
+span.texto-data-contato-img {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFFFFF;
+	}
+	
+span.data-contato-img {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	}
+	
+#contato-conteudo {
+    background:#FFFFFF;
+    width:492px;
+	height:auto;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000;
+	position:relative;
+	margin: 0 auto; 
+	margin-bottom:35px;
+	padding-bottom:20px;
+	behavior: url(paginas/codigos/PIE/PIE.htc);
+	}
+	
+#contato-img { 
+    width:470px;
+	height:auto;
+	margin: 0 auto;
+	padding-top:25px;
+	padding-bottom:25px;
+	}	
+	
+#texto-principal {
+    width:460px;
+	height:auto;
+	text-align:left;
+	margin: 0 auto;
+	}
+	
+#texto-principal-1 {
+    width:180px;
+	height:auto;
+	text-align:left; 
+	float:left;
+	margin-left:16px;
+	}
+	
+#texto-principal-2 {
+    width:280px;
+	height:auto;
+	text-align:left; 
+	float:right; 
+	padding-top:4px; 
+	margin-right:16px;
+	}		
+	
+span.texto-principal {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000;
+	}
+	
+span.texto-principal-admin {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	font-weight:bolder; 
+	color:#000000;
+	}			
+
+.clear {
+clear:both;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

@@ -1,0 +1,195 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral {
+    width:1000px;
+	height:auto;
+	text-align:center;
+	margin: 0 auto;
+	min-height:100%;
+	position:relative;
+	}
+	
+* html #geral{ height:100%; }
+
+#pg {
+    width:650px;
+	height:auto; 
+	text-align:center;
+	margin: 0 auto;
+	margin-top:20px; 
+	margin-bottom:45px;  
+	}
+	
+#conteudo {
+    background:#FFFFFF;
+    width:650px;
+	height:auto; 
+	text-align:center;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000;
+    margin: 0 auto;  
+	behavior: url(../paginas/codigos/PIE/PIE.htc);  
+	}
+	
+#topo-download-programas { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:650px;
+	height:27px;
+	border-bottom:solid 1px #999999;
+	border-radius:6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	padding-top:11px;  
+	margin: 0 auto; 
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}
+	
+span.texto-topo {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	font-weight:bolder;
+	color:#333333;
+	}
+	
+#area-programas { 
+    width:610px;
+	height:138px; 
+	border-bottom:solid 1px #666666;
+	margin: 0 auto;
+	text-align:left; 
+	padding-top:12px; 
+	}
+	
+#area-programas:hover {
+    background:#F2F2F2;
+	}
+	
+#area-programas-1 { 
+    width:610px;
+	height:138px;
+	margin: 0 auto;
+	text-align:left; 
+	padding-top:12px; 
+	}
+	
+#area-programas-1:hover {
+    background:#F2F2F2;
+	}			
+	
+#img-programas {
+    width:111px;
+	height:109px; 
+	float:left; 
+	margin-top:12px;  
+	margin-left:12px;
+	} 
+	
+#titulo-programas {
+    width:486px;
+	height:auto; 
+	float:right; 
+	text-align:center;
+	}
+	
+span.texto-titulo-programas { 
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px; 
+	color:#333333;
+	} 
+	
+#dados-programas {
+    width:250px; 
+	height:auto;
+	float:left; 
+	margin-top:10px; 
+	margin-left:20px;
+	}
+	
+span.texto-dados-programas-1 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	font-weight:bolder; 
+	color:#FF0000;
+	}
+	
+span.texto-dados-programas-2 {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bolder;
+	color:#000000;
+	}
+	
+span.texto-dados-programas-3 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	}
+	
+#area-botao-download { 
+    width:135px;
+	height:36px; 
+	float:right; 
+	margin-top:84px; 
+	}	
+	
+#botao-download {
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:135px;
+	height:36px; 
+	text-align:center;  
+	border-top:solid 1px #999999;
+	border-left:solid 1px #999999; 
+	border-right:solid 1px #999999;
+	border-bottom:solid 1px #666666;
+	border-radius:6px 6px 0px 0px; 
+	-moz-border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	float:right;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	text-decoration: none;
+	outline:none; 
+	position:relative;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}
+	
+#botao-download:hover {
+	border-top:solid 1px #666666;
+	border-left:solid 1px #666666;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px; 
+	font-weight:bolder;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	position:relative;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}									
+
+.clear {
+clear:both;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

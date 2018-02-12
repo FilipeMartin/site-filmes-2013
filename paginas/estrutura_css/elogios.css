@@ -1,0 +1,426 @@
+body {
+    background-color: #F3F4F6;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral-elogios {
+    width:594px;
+	height:auto; 
+	margin: 0 auto;
+	min-height:100%; 
+	position:relative;
+	}
+
+* html #geral-elogios{ height:100%; }
+
+#pg-elogios {
+    width:501px; 
+	height:auto;
+	margin: 0 auto;
+	}
+	
+#elogios-pg-img {
+    background:url(../estrutura_img/barra%20conteudo.jpg) no-repeat;
+	width:501px;
+	height:96px;
+	margin: 0 auto;
+	}
+	
+#titulo-elogios-img { 
+    width:auto; 
+    height:49px;
+	text-align:left;
+    float:left;
+	padding-left:21px;
+	margin-top:23px;   
+    }	
+	
+a.titulo-elogios-img:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+a.titulo-elogios-img:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+	
+}
+
+a.titulo-elogios-img:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+
+a.titulo-elogios-img:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: underline;
+	outline:none;
+}	
+
+#data-elogios-img { 
+    width:241px;
+	text-align:left;  
+    float:left; 
+	padding-left:30px;     
+	}
+	
+span.texto-data-elogios-img {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFFFFF;
+	}
+	
+span.data-elogios-img {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	}
+	
+#elogios-conteudo {
+    background:#FFFFFF;
+    width:492px;
+	height:auto;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000;
+	position:relative;
+	margin: 0 auto; 
+	margin-bottom:35px;
+	padding-bottom:20px;
+	behavior: url(paginas/codigos/PIE/PIE.htc);
+	}
+	
+#elogios-img { 
+    width:470px;
+	height:auto;
+	margin: 0 auto;
+	padding-top:25px;
+	padding-bottom:25px;
+	}
+	
+#texto-principal {
+    width:460px;
+	height:auto;
+	text-align:left;
+	margin: 0 auto;
+	}	
+	
+span.texto-principal {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#000000;
+	}
+	
+span.texto-principal-admin {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	font-weight:bolder; 
+	color:#000000;
+	}	
+	
+#pg-sistema-comentarios {
+    width:470px;
+	height:auto;
+	padding-top:10px;
+	margin:0 auto;
+	}
+	
+#comentarios-elogios {
+    width:430px;
+	height:auto;
+	margin: 0 auto; 
+	margin-bottom:10px; 	
+	}
+	
+#msg-sem-comentarios {
+    width:430px;
+	height:auto; 
+	text-align:center;
+	margin: 0 auto;
+	}
+	
+span.texto-msg-sem-comentarios {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bolder;
+	color:#FF0000;
+	}		
+
+#comentarios-total {
+    width:430px;
+	height:auto;
+	text-align:left;
+	margin: 0 auto;
+	margin-bottom:15px;
+	}
+	
+span.texto-comentarios-total {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bolder; 
+	color:#014496;
+	}	
+
+#box-comentarios-elogios {
+    width:430px;
+	height:auto;
+	margin: 0 auto; 
+	text-align:left;
+	}
+	
+#barra-img {
+    background:url(../../paginas/estrutura_img/barra%20comentarios.png) no-repeat;
+    width:430px;
+	height:35px;
+	margin: 0 auto;
+	}	
+	
+#nome-usuario {
+    width:235px;
+	height:30px;
+	float:left; 
+	padding-top:7px; 
+	padding-left:10px; 
+	margin-bottom:2px;
+	}
+	
+span.texto-nome-usuario {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bolder;
+	color:#FFFFFF;
+	} 	
+	
+#data-comentario {
+    width:185px;
+	height:21px;
+	text-align:center;
+	float:left;
+	padding-top:16px;
+	}	
+	
+span.texto-data-comentario {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bolder;
+	color:#FF0000;
+	}	
+	
+#editar-comentario {
+    width:430px; 
+	height:auto;
+	text-align:right; 
+	float:right;   
+	}	
+	
+#botao-editar-comentario { 
+    width:170px;
+	height:20px;
+    font-family:Arial, Helvetica, sans-serif; 
+	font-weight:bolder;
+	font-size:11px; 
+	color:#333333;
+	}	
+	
+#mensagem-comentario {
+    width:420px;
+	height:auto;
+	float:left;
+	padding-left:10px;
+	margin-top:2px;
+	margin-bottom:20px;
+	}	
+	
+span.texto-mensagem-comentario {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}	
+	
+span.r-a {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	font-weight:bolder;
+	color:#000000;
+	}		
+	
+#texto-comentarios-elogios {
+    width:430px;
+	height:auto;
+	text-align:left;
+	margin: 0 auto; 
+	margin-bottom:10px;	
+	}	
+	
+#espaco-texto3-comentarios-elogios {
+    width:auto;
+	height:auto;
+	margin-bottom:4px;
+	}	
+	
+span.texto1-comentarios-elogios {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bolder;
+	color:#FF0000;
+	}
+	
+span.texto2-comentarios-elogios {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bolder;
+	color:#000000;
+	}
+	
+span.texto3-comentarios-elogios {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	}
+	
+#formulario-comentarios-elogios {
+    width:444px;
+	height:auto;
+	text-align:left;
+	margin: 0 auto;
+	}	
+	
+#nome {
+    width:235px;
+	height:auto;
+	border:solid 1px #666666; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#nome:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#nome:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#email {
+    width:235px;
+	height:auto;
+	border:solid 1px #666666; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#email:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#email:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#site_blog {
+    width:235px;
+	height:auto;
+	border:solid 1px #666666; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#site_blog:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#site_blog:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#mensagem_m_p {
+    width:395px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	border:solid 1px #666666;
+	color:#000000;
+	padding-top:3px;
+	padding-left:6px;
+	}
+	
+#mensagem_m_p:hover {
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#mensagem_m_p:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#KT_Insert1 {
+    width:180px;
+	height:40px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#000000;
+	margin-top:5px;
+	}
+	
+#espaco {
+    margin-top:5px;
+	}
+	
+span.texto-nome	 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	font-weight:bolder;
+	color:#000000;
+	}											
+
+.clear {
+clear:both;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

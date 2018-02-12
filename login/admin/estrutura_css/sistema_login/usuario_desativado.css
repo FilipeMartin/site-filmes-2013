@@ -1,0 +1,176 @@
+body {
+    background-color: #F3F4F6;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral {
+    width:1000px;
+	height:auto;
+	text-align:center;
+	margin: 0 auto;
+	min-height:100%;
+	position:relative;
+	}
+	
+* html #geral{ height:100%; }
+
+#pg {
+    width:500px;
+	height:auto;
+	text-align:center;
+	margin: 0 auto; 
+	margin-top:100px; 
+	margin-bottom:100px;
+	}
+
+#conteudo {
+    background:#FFFFFF;
+    width:500px;
+	height:auto;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000; 
+	text-align:center;
+    margin: 0 auto;
+	behavior: url(../../../paginas/codigos/PIE/PIE.htc); 
+	}
+
+#titulo-usuario-desativado {	
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:500px;
+	height:27px; 
+	text-align:center;
+	border-bottom:solid 1px #999999;
+	border-radius:6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	padding-top:11px;  
+	margin: 0 auto;
+	behavior: url(../../../paginas/codigos/PIE/PIE.htc);
+	}
+	
+span.texto-titulo-usuario-desativado {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	font-weight:bolder;
+	color:#333333;
+	}
+	
+#texto-principal { 
+    width:330px;
+	height:auto;
+	text-align:left;
+	float:left; 
+	margin-left:40px; 
+	margin-top:15px; 
+	margin-bottom:20px;
+	}
+	
+span.texto-principal-1 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	font-weight:bolder; 
+	color:#FF0000;
+	}
+	
+span.texto-principal-2 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	font-weight:bolder;
+	color:#000000;
+	}	
+	
+span.texto-principal-3 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	}
+	
+#email { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:245px;
+	height:auto;
+	border:solid 1px #999999; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000; 
+	text-align:center;
+	}
+	
+#email:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#email:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }		
+	
+#img-principal { 
+    background:url(../../estrutura_img/Usuario_Desativado.png) no-repeat left bottom; 
+    width:120px;
+	height:150px;
+	text-align:center;
+	float:right; 
+	}
+	
+#botao-voltar {
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:135px;
+	height:36px; 
+	text-align:center; 
+	border:solid 1px #999999; 
+	border-radius:0px 6px 0px 6px; 
+	-moz-border-radius:0px 6px 0px 6px;
+	-webkit-border-radius:0px 6px 0px 6px;
+	float:left;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	behavior: url(../../../paginas/codigos/PIE/PIE.htc);
+	}
+	
+#botao-voltar:hover {
+	border-top:solid 1px #666666;
+	border-left:solid 1px #666666;
+	box-shadow:1px 1px 7px #000000;
+	-moz-box-shadow:1px 1px 7px #000000;
+	-webkit-box-shadow:1px 1px 7px #000000;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px; 
+	font-weight:bolder;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	behavior: url(../../../paginas/codigos/PIE/PIE.htc);
+	}			
+	
+.clear {
+clear:both;
+}	
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

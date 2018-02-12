@@ -1,0 +1,412 @@
+body {
+    background-color: #F3F4F6;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral-home {
+    width:594px;
+	height:auto;
+	margin: 0 auto;
+	min-height:100%;
+	position:relative;
+	}
+	
+* html #geral-home{ height:100%; }
+
+#home {
+    width:501px; 
+	height:auto;
+	margin: 0 auto;
+	}
+	
+#home-img {
+    background:url(../estrutura_img/barra%20conteudo.jpg) no-repeat;
+	width:501px;
+	height:96px;
+	margin: 0 auto;
+	}
+	
+#texto-home-img { 
+    width:auto; 
+    height:49px;
+	text-align:left;
+    float:left;
+	padding-left:21px;
+	margin-top:23px;   
+    }
+	
+a.texto-home-img:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+a.texto-home-img:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+	
+}
+
+a.texto-home-img:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+
+a.texto-home-img:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: underline;
+	outline:none;
+}	
+	
+#texto-postado-dia-home-img { 
+    width:250px;
+	text-align:left;  
+    float:left; 
+	padding-left:30px;     
+	}	
+	
+span.texto-postado-dia-home-img {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFFFFF;
+	}
+	
+span.texto-data-home-img {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	}
+	
+#home-conteudo {
+    background:#FFFFFF;
+    width:492px;
+	height:auto;
+	margin: 0 auto;
+	border-radius:6px;
+	-mox-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000;
+	position:relative; 
+	margin-bottom:35px;
+	behavior: url(../../codigos/PIE/PIE.htc);
+	}
+	
+#home-img-filmes {
+    width:470px;
+	height:auto;
+	margin: 0 auto;
+	padding-top:25px;
+	padding-bottom:25px;
+	}
+	
+a.img-filmes-link {
+    outline:none;
+	}
+	
+#home-sinopse {
+    width:435px;
+	height:auto; 
+	margin: 0 auto;
+	text-align:left;
+	margin-bottom:15px; 
+	}
+				
+span.sinopse {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#014496;
+	font-weight: bold;
+	}
+	
+span.texto-sinopse {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;  
+	}
+	
+#dados-do-filme {
+    width:430px;
+	height:auto;
+	text-align:left;
+	margin: 0 auto;
+	margin-bottom:25px;
+	}
+	
+span.dados-do-filme {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FF0000;
+	font-weight:bolder;
+	}
+	
+span.t-1-d-f {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:bolder;
+	}
+	
+span.texto2-dados-do-filme {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#home-box {
+    background:#FFFFFF;
+    width:450px;
+	height:auto;
+	margin: 0 auto;
+	border-radius:6px;	
+	-moz-border-radius:6px;	
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000; 
+	margin-bottom:20px; 
+	padding-top:12px;
+	padding-bottom:10px; 
+	position:relative; 
+	behavior: url(../../codigos/PIE/PIE.htc);
+	}
+	
+span.baixar-gratis-texto-box { 
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#000000;
+	font-weight: bold; 
+	}
+	
+	
+a.titulo-texto-box:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #014496;
+	text-decoration: none;
+	font-weight: bold;
+	outline:none;
+}
+a.titulo-texto-box:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #014496;
+	text-decoration: none;
+	font-weight: bold;
+	outline:none;
+}	
+
+a.titulo-texto-box:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #014496;
+	text-decoration: none;
+	font-weight: bold;
+	outline:none;
+	}
+	
+a.titulo-texto-box:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #014496;
+	text-decoration: underline;
+	font-weight: bold;
+	outline:none;
+}	
+	
+#home-box-esquerda {
+    width:82px;
+	height:auto;
+	float:left; 
+	}
+	
+#home-box-centro {
+    width:246px;
+	height:auto;
+	float:left;
+	margin: 0 auto;
+	}
+	
+#home-box-direita {
+    width:122px;
+	height:auto;
+	float:right;
+	margin: 0 auto;
+	}
+	
+#paginacao { 
+    width:auto;
+	height:auto;
+	margin: 0 auto;   
+	margin-top:10px;
+	margin-bottom:30px; 
+	text-align:center; 
+	position:relative;  
+	}
+	
+span.texto-paginacao {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#014496;
+	}
+	
+a.texto-link-paginacao:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+a.texto-link-paginacao:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: none;
+	outline:none;
+}	
+
+a.texto-link-paginacao:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: none;
+	outline:none;
+	}
+	
+a.texto-link-paginacao:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FF9900;
+	outline:none;
+	}
+	
+a.texto-primeiro-ultimo-link-paginacao:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: none;
+	outline:none;
+}
+a.texto-primeiro-ultimo-link-paginacao:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: none;
+	outline:none;
+}	
+
+a.texto-primeiro-ultimo-link-paginacao:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: none;
+	outline:none;
+	}
+	
+a.texto-primeiro-ultimo-link-paginacao:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#CCFF33;
+	outline:none;
+	}			
+	
+#paginacao-um { 
+    background:url(../estrutura_img/fundo%20paginacao.png) repeat-x; 
+    width:auto;
+	height:auto; 
+	border-radius:6px; 
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	padding:5px 8px 5px 6px;  
+	margin-right:10px; 
+	float:left;
+	behavior: url(../../codigos/PIE/PIE.htc);
+	}	
+	
+#paginacao-dois {
+    background:url(../estrutura_img/fundo%20paginacao.png) repeat-x;  
+    width:auto;
+	height:auto; 
+	border-radius:6px; 
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	padding:5px 10px 5px 10px; 
+	float:left;
+	behavior: url(../../codigos/PIE/PIE.htc);
+	}
+	
+#paginacao-tres { 
+    width:auto;
+	height:auto; 
+	border:solid 1px; 
+	float:left; 
+	padding:2px 7px 2px 7px; 
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px; 
+	margin-left:8px; 
+	margin-right:8px; 
+	behavior: url(../../codigos/PIE/PIE.htc);
+	}
+	
+#paginacao-quatro { 
+    background:url(../estrutura_img/fundo%20paginacao.png) repeat-x;
+    width:auto;
+	height:auto; 
+	border-radius:6px; 
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	padding:5px 10px 5px 10px; 
+	float:left; 
+	behavior: url(../../codigos/PIE/PIE.htc);
+	}
+	
+#paginacao-cinco { 
+    background:url(../estrutura_img/fundo%20paginacao.png) repeat-x;
+    width:auto;
+	height:auto; 
+	border-radius:6px; 
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	padding:5px 6px 5px 8px; 
+	margin-left:10px; 
+	float:left; 
+	behavior: url(../../codigos/PIE/PIE.htc);
+	}
+	
+span.resultado-nao-encontrado { 
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF0000;
+	}		
+	
+.clear {
+clear:both;
+}									
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

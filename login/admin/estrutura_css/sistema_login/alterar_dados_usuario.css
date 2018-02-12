@@ -1,0 +1,268 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral {
+    width:1000px;
+	height:auto;
+	text-align:center;
+	margin: 0 auto;
+	min-height:100%;
+	position:relative;
+	}
+	
+* html #geral{ height:100%; }
+
+#pg {
+    width:500px;
+	height:auto; 
+	text-align:center;
+	margin: 0 auto; 
+    margin-top:20px;
+	margin-bottom:50px; 
+	}
+
+#conteudo-alterar-dados {
+    background:#FFFFFF;
+    width:500px;
+	height:auto;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000; 
+	text-align:center;
+    margin: 0 auto;
+	behavior: url(../paginas/codigos/PIE/PIE.htc); 
+	}
+
+#titulo-alterar-dados {	
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:500px;
+	height:27px; 
+	text-align:center;
+	border-bottom:solid 1px #999999;
+	border-radius:6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	padding-top:11px;  
+	margin: 0 auto;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}
+	
+span.texto-titulo-alterar-dados {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	font-weight:bolder;
+	color:#333333;
+	}
+	
+#formulario-alterar-dados {
+     width:440px;
+	 height:auto;
+	 text-align:left; 
+	 margin-top:25px; 
+	 float:right;
+	 }
+	 
+#nome { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:245px;
+	height:auto;
+	border:solid 1px #999999; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#nome:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#nome:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#usuario { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:245px;
+	height:auto;
+	border:solid 1px #999999; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#usuario:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#usuario:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#email { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:245px;
+	height:auto;
+	border:solid 1px #999999; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#email:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#email:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#old_senha { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:245px;
+	height:auto;
+	border:solid 1px #999999; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#old_senha:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#old_senha:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }	
+	
+#senha { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:245px;
+	height:auto;
+	border:solid 1px #999999; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#senha:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#senha:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }
+	
+#re_senha { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:245px;
+	height:auto;
+	border:solid 1px #999999; 
+	padding-top:5px;
+	padding-bottom:6px; 
+	padding-left:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+#re_senha:hover { 
+    background:#F0F0F0;
+	border:solid 1px #000000; 
+	}
+	
+#re_senha:focus { 
+    background:#F0F0F0;
+	border:solid 1px #000000;
+    }						 			
+	
+#espaco {
+    margin-top:5px;
+	}
+	
+span.simbolo_obrigatorio { 
+    font-size:11px; 
+    color:#D90000;
+	}	
+	
+#KT_Update1 {
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:135px;
+	height:36px; 
+	text-align:center; 
+	border:solid 1px #999999; 
+	border-radius:6px 0px 6px 0px; 
+	-moz-border-radius:6px 0px 6px 0px;
+	-webkit-border-radius:6px 0px 6px 0px;
+	float:right;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}
+	
+#KT_Update1:hover {
+	border-top:solid 1px #666666;
+	border-left:solid 1px #666666;
+	box-shadow:1px 1px 7px #000000;
+	-moz-box-shadow:1px 1px 7px #000000;
+	-webkit-box-shadow:1px 1px 7px #000000;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px; 
+	font-weight:bolder;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}		
+	
+.clear {
+clear:both;
+}	
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

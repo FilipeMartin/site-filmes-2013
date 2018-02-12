@@ -1,0 +1,140 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral {
+    width:1000px;
+	height:auto;
+	text-align:center;
+	margin: 0 auto;
+	min-height:100%;
+	position:relative;
+	}
+	
+* html #geral{ height:100%; }
+
+#conteudo {
+    width:500px;
+	height:auto; 
+	text-align:center;
+    margin: 0 auto;
+	margin-top:20px;
+	margin-bottom:50px;  
+	}
+	
+#dados-alterados {
+    background:#FFFFFF;
+    widows:500px;
+	height:auto; 
+	text-align:left; 
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000;
+	margin: 0 auto;	
+	behavior: url(../paginas/codigos/PIE/PIE.htc);		
+	}
+	
+#titulo-dados-alterados { 
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:500px;
+	height:27px; 
+	text-align:center;
+	border-bottom:solid 1px #999999;
+	border-radius:6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	padding-top:11px;  
+	margin: 0 auto;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}
+	
+span.texto-titulo-dados-alterados {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	font-weight:bolder;
+	color:#333333;
+	}
+	
+#dados-usuarios { 
+    width:430px;
+	height:auto; 
+	text-align:left;
+	margin: 0 auto;
+	}
+	
+span.texto-dados-usuarios-1-1 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	font-weight:bolder; 
+	color:#FF0000;
+	}	
+   
+span.texto-dados-usuarios { 
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bolder;
+	color:#000000;
+	}
+	
+span.texto-dados-usuarios-1 {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	}
+	
+#botao-continuar {
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:135px;
+	height:36px; 
+	text-align:center; 
+	border:solid 1px #999999; 
+	border-radius:6px 0px 6px 0px; 
+	-moz-border-radius:6px 0px 6px 0px;
+	-webkit-border-radius:6px 0px 6px 0px;
+	float:right;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}
+	
+#botao-continuar:hover {
+	border-top:solid 1px #666666;
+	border-left:solid 1px #666666;
+	box-shadow:1px 1px 7px #000000;
+	-moz-box-shadow:1px 1px 7px #000000;
+	-webkit-box-shadow:1px 1px 7px #000000;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px; 
+	font-weight:bolder;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	behavior: url(../paginas/codigos/PIE/PIE.htc);
+	}	
+	
+.clear {
+clear:both;
+}	
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

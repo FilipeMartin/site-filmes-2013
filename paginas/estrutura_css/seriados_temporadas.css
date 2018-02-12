@@ -1,0 +1,92 @@
+body {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px; 
+	text-align:center;
+}
+
+#geral-temporadas {
+    width:205px;
+	height:auto; 
+	margin: 0 auto;
+	min-height:100%; 
+	position:relative;
+	}
+
+* html #geral-temporadas{ height:100%; }
+
+#titulo-temporadas {
+     width:205px;
+	 height:auto;
+	 margin: 0 auto;
+	 text-align:left;
+	 margin-bottom:25px;
+	 }
+	 
+span.texto-titulo {
+     font-family:Verdana, Arial, Helvetica, sans-serif;
+	 font-size:12px; 
+	 color:#000000;  
+	 font-weight:bolder;
+	 }	 
+	 
+#pg-temporadas {
+     width:205px;
+	 height:auto; 
+	 margin: 0 auto;
+	 text-align:left;
+	 }	
+	 
+a.t-l:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+	outline:none;
+    }
+
+a.t-l:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+	outline:none;	
+   }
+
+a.t-l:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+	outline:none;
+    }
+
+a.t-l:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	font-weight:bolder;
+	text-decoration: underline;
+	outline:none; 
+	}
+	
+span.t-2 {
+    font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	color:#333333; 
+	}		  	 
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

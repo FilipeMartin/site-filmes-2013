@@ -1,0 +1,233 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#geral {
+    width:auto;
+	height:auto; 
+	margin: 0 auto;
+	min-height:100%;
+	position:relative;
+	}
+	
+* html #geral{ height:100%; }
+
+#conteudo {
+    background-color: #F3F4F6;
+    width:520px;
+	height:auto;
+	text-align:left; 
+	margin: 0 auto; 
+	padding-top:10px; 
+	padding-left:15px; 
+	border:solid 2px #333333; 
+	}
+	
+#msg-sem-comentarios {
+    width:430px;
+	height:auto; 
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:10px;
+	}
+	
+span.texto-msg-sem-comentarios {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bolder;
+	color:#FF0000;
+	}	
+	
+#pg-comentarios {
+    background:#FFFFFF;
+    width:492px;
+	height:auto;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	box-shadow:1px 1px 15px #000000;
+	-moz-box-shadow:1px 1px 15px #000000;
+	-webkit-box-shadow:1px 1px 15px #000000;
+	padding-bottom:20px; 
+	margin: 0 auto; 
+	margin-top:20px; 
+	margin-bottom:30px;
+	position:relative;
+	behavior: url(../../../../../paginas/codigos/PIE/PIE.htc);
+	}
+	
+#atualizar-pg {
+    background:url(../../estrutura_img/Admin%20Conteudo%20-%20Background.png) repeat-x; 
+    width:115px;
+	height:25px; 
+	text-align:center; 
+	border-bottom:solid 1px #999999; 
+	border-left:solid 1px #999999;  
+	border-right:solid 1px #999999;  
+	border-radius:0px 6px 0px 6px; 
+	-moz-border-radius:0px 6px 0px 6px;
+	-webkit-border-radius:0px 6px 0px 6px;
+	float:right; 
+	padding-top:8px;
+	behavior: url(../../../../../paginas/codigos/PIE/PIE.htc);
+	}
+	
+#atualizar-pg:hover {
+	border-left:solid 1px #666666;
+	box-shadow:1px 1px 7px #000000;
+	-moz-box-shadow:1px 1px 7px #000000;
+	-webkit-box-shadow:1px 1px 7px #000000;
+	behavior: url(../../../../../paginas/codigos/PIE/PIE.htc);
+	}	
+	
+a.texto-atualizar-pg:link {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+    }
+
+a.texto-atualizar-pg:visited {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	text-decoration: none;
+	outline:none;	
+   }
+
+a.texto-atualizar-pg:active {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+    }
+
+a.texto-atualizar-pg:hover {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px; 
+	font-weight:bolder;
+	color:#333333;
+	text-decoration: none;
+	outline:none;
+	}				
+
+#comentarios-total {
+    width:430px;
+	height:auto;
+	text-align:left;
+	margin: 0 auto;
+	margin-bottom:15px;
+	}
+	
+span.texto-comentarios-total {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bolder; 
+	color:#014496;
+	}	
+
+#box-comentarios-filmes {
+    width:430px;
+	height:auto;
+	margin: 0 auto; 
+	text-align:left;
+	}
+	
+#barra-img {
+    background:url(../../../../paginas/estrutura_img/barra%20comentarios.png) no-repeat;
+    width:430px;
+	height:35px;
+	margin: 0 auto;
+	}	
+	
+#nome-usuario {
+    width:235px;
+	height:30px;
+	float:left; 
+	padding-top:7px; 
+	padding-left:10px; 
+	margin-bottom:2px;
+	}
+	
+span.texto-nome-usuario {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bolder;
+	color:#FFFFFF;
+	} 	
+	
+#data-comentario {
+    width:185px;
+	height:21px;
+	text-align:center;
+	float:left;
+	padding-top:16px;
+	}	
+	
+span.texto-data-comentario {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bolder;
+	color:#FF0000;
+	}	
+	
+#editar-comentario {
+    width:430px; 
+	height:auto;
+	text-align:right; 
+	float:right;   
+	}	
+	
+#botao-editar-comentario { 
+    width:170px;
+	height:20px;
+    font-family:Arial, Helvetica, sans-serif; 
+	font-weight:bolder;
+	font-size:11px; 
+	color:#333333;
+	}
+	
+#mensagem-comentario {
+    width:420px;
+	height:auto;
+	float:left;
+	padding-left:10px;
+	margin-top:2px;
+	margin-bottom:20px;
+	}	
+	
+span.texto-mensagem-comentario {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
+span.r-a {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	font-weight:bolder;
+	color:#000000;
+	}		
+
+.clear {
+clear:both;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
